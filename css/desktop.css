@@ -1,0 +1,9 @@
+#top-banner{
+    display: inline-block;
+    background-color: darkgreen;
+}
+
+#logo{
+    width: 90px;
+    height: 100px;
+}
