@@ -51,12 +51,11 @@
     width:40%;
 }
 
-footer {
+footer article {
    clear: both;
     width: 100%;
     text-align: center;
     padding: 15px;
     border: 2px solid;
-    height:10px;
 }
 
