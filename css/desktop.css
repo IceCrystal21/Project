@@ -1,9 +1,13 @@
 #top-banner{
-    display: inline-block;
+    display: block;
     background-color: darkgreen;
 }
 
 #logo{
     width: 90px;
     height: 100px;
+}
+
+#delivery{
+    color: white;
 }
