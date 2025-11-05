@@ -12,7 +12,22 @@
     color: white;
 }
 
-#gunpowder-plot, #in-the-news {
-    display: inline-block;
+#gunpowder-plot{
+    float: left;
     vertical-align: top;
+    width: 45%;
+    padding:10px;
+    border: 2px solid;
+}
+
+#in-the-news {
+    float:right;
+    border:2px solid;
+    width: 45%;
+    padding: 10px;
+}
+#sideBar {
+    float:right;
+    margin-right: 5px;
+width:5%;
 }
