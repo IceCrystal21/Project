@@ -11,3 +11,8 @@
 #delivery{
     color: white;
 }
+
+#gunpowder-plot, #in-the-news {
+    display: inline-block;
+    vertical-align: top;
+}
