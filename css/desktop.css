@@ -59,3 +59,25 @@ footer article {
     border: 2px solid;
 }
 
+.banner h2{
+    display: block;
+    border: 1px grey solid;
+    padding: 0;
+    margin: 0;
+}
+
+#gunpowder-banner{
+    background-color: rgb(182, 255, 182);
+}
+
+#news-banner{
+    background-color: rgb(182, 219, 255);
+}
+
+#did-you-know-banner{
+    background-color: rgb(182, 255, 182);
+}
+
+#on-this-day-banner{
+    background-color: rgb(182, 219, 255);
+}
