@@ -8,7 +8,7 @@
     </head>
     <body>
         <header id="top-banner">
-            <img src="images/logo.png" alt="Amazon Logo" id="logo">
+            <img src="images/logo.png" alt="Amazon Logo" id="logo" width="90" height="100">
             <input class="input">
             <button>Search</button>
             <ul>
@@ -20,20 +20,26 @@
         <nav id="sideBar">
             <h3>Appearance</h3>
             <hr>
-            <div id="text">
-                <input type="radio" name="text-size">
-                <input type="radio" name="text-size">
-                <input type="radio" name="text-size">
-            </div>
-            <div id="width">
-                <input type="radio" name="width">
-                <input type="radio" name="width">
-            </div>
-            <div id="color">
-                <input type="radio" name="color">
-                <input type="radio" name="color">
-                <input type="radio" name="color">
-            </div>
+            <ul id="text">
+                <p>Text</p>
+                <hr>
+                <li><input type="radio" name="text-size"> <p>Small</p></li>
+                <li><input type="radio" name="text-size" checked> <p>Standard</p></li>
+                <li><input type="radio" name="text-size"> <p>Large</p></li>
+            </ul>
+            <ul id="width">
+                <p>Width</p>
+                <hr>
+                <li><input type="radio" name="width" checked> <p>Standard</p></li>
+                <li><input type="radio" name="width"> <p>Wide</p></li>
+            </ul>
+            <ul id="color">
+                <p>Color</p>
+                <hr>
+                <li><input type="radio" name="color"> <p>Automatic</p></li>
+                <li><input type="radio" name="color" checked> <p>Light</p></li>
+                <li><input type="radio" name="color"> <p>Dark</p></li>
+            </ul>
         </nav>
 
         <main id="content">
