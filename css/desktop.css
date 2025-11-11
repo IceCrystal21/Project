@@ -73,7 +73,6 @@ ul{
 
 ul a{
     text-decoration: none;
-    color: black;
 }
 
 header ul{
@@ -83,4 +82,9 @@ header ul{
 
 header #search-bar{
     width: 25%;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 10px;
 }
