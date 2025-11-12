@@ -1,5 +1,5 @@
 #gunpowder-plot{
-    float: left;
+    float: right;
     vertical-align: top;
     width: 40%;
     padding: 2px;
@@ -15,7 +15,7 @@
    
 }
 #sideBar {
-    float:right;
+    float:left;
     margin: 2%;
     width: 30vh;
     padding: 2px;
@@ -24,7 +24,7 @@
 #did-you-know {
     border: 2px solid;
     padding: 2px;
-    float:left;
+    float:right;
     width:40%;
 }
 

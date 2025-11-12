@@ -1,0 +1,94 @@
+#gunpowder-plot{
+    float: right;
+    vertical-align: top;
+    width: 40%;
+    padding: 2px;
+    border: 2px solid;
+  
+}
+
+#in-the-news {
+    float:inline-start;
+    border:2px solid;
+    width: 40%;
+    padding: 2px;
+   
+}
+#sideBar {
+    float:left;
+    margin: 2%;
+    width: 30vh;
+    padding: 2px;
+}
+
+#did-you-know {
+    border: 2px solid;
+    padding: 2px;
+    float:right;
+    width:40%;
+}
+
+#on-this-day {
+    border: 2px solid;
+    padding: 2px;
+    float:inline-start;
+    width:40%;
+}
+
+footer article {
+   clear: both;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    border: 2px solid;
+}
+
+.banner h2{
+    display: block;
+    border: 1px grey solid;
+    padding: 0;
+    margin: 0;
+}
+
+#gunpowder-banner{
+    background-color: rgb(210, 250, 210);
+}
+
+#news-banner{
+    background-color: rgb(199, 223, 247);
+}
+
+#did-you-know-banner{
+    background-color: rgb(210, 250, 210);
+}
+
+#on-this-day-banner{
+    background-color: rgb(199, 223, 247);
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul a{
+    text-decoration: none;
+}
+
+header ul{
+    display: inline;
+    float: right;
+}
+
+header #search-bar{
+    width: 25%;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+ul li p {
+    float: inline-start;
+    margin: 0;
+}
