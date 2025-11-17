@@ -1,16 +1,20 @@
-#work{
+body {
+    background-color: rgb(199, 223, 247);
+}
+
+#posts{
     float: right;
-    vertical-align: top;
-    width: 40%;
+}
+
+#work{
+    width: 30%;
     padding: 2px;
     border: 2px solid;
-  
 }
 
 #life {
-    float:inline-start;
     border:2px solid;
-    width: 40%;
+    width: 30%;
     padding: 2px;
    
 }
@@ -24,8 +28,7 @@
 #rant {
     border: 2px solid;
     padding: 2px;
-    float:right;
-    width:40%;
+    width:30%;
 }
 
 .banner h2{
@@ -35,21 +38,18 @@
     margin: 0;
 }
 
-#gunpowder-banner{
+#work-banner{
     background-color: rgb(210, 250, 210);
 }
 
-#news-banner{
-    background-color: rgb(199, 223, 247);
-}
-
-#did-you-know-banner{
+#life-banner{
     background-color: rgb(210, 250, 210);
 }
 
-#on-this-day-banner{
-    background-color: rgb(199, 223, 247);
+#rant-banner{
+    background-color: rgb(210, 250, 210);
 }
+
 
 ul{
     list-style-type: none;
@@ -59,21 +59,3 @@ ul a{
     text-decoration: none;
 }
 
-header ul{
-    display: inline;
-    float: right;
-}
-
-header #search-bar{
-    width: 25%;
-}
-
-header ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-ul li p {
-    float: inline-start;
-    margin: 0;
-}
