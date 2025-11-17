@@ -1,4 +1,4 @@
-#gunpowder-plot{
+#work{
     float: right;
     vertical-align: top;
     width: 40%;
@@ -7,7 +7,7 @@
   
 }
 
-#in-the-news {
+#life {
     float:inline-start;
     border:2px solid;
     width: 40%;
@@ -21,26 +21,11 @@
     padding: 2px;
 }
 
-#did-you-know {
+#rant {
     border: 2px solid;
     padding: 2px;
     float:right;
     width:40%;
-}
-
-#on-this-day {
-    border: 2px solid;
-    padding: 2px;
-    float:inline-start;
-    width:40%;
-}
-
-footer article {
-   clear: both;
-    width: 100%;
-    text-align: center;
-    padding: 15px;
-    border: 2px solid;
 }
 
 .banner h2{
