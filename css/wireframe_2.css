@@ -1,16 +1,36 @@
 body {
-    background-color: rgb(199, 223, 247);
+    background-color: rgb(208, 228, 248);
 }
 
 header{
     background-color: rgb(141, 198, 255);
+    background-image: url("../images/q_mark_bg.jpeg");
+}
+
+#intro{
+    padding: 5% 0;
+}
+
+#recent-posts{
+    background-color: rgb(210, 250, 210);
+    padding: 10px 0;
+    text-align: center;
 }
 
 #sideBar {
     float:left;
     margin: 2%;
-    width: 30vh;
+    width: 15vw;
+    height: 80vh;
     padding: 2px;
+}
+
+#sideBar ul {
+    padding: 50% 0;
+}
+
+#sideBar ul li {
+    padding: 10% 0;
 }
 
 #work{
@@ -24,7 +44,8 @@ header{
     border:2px solid;
     width: 30%;
     padding: 2px;
-   float: right;
+    float: right;
+    margin: 0 20px;
 }
 
 #rant {
