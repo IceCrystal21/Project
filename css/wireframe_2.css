@@ -2,22 +2,10 @@ body {
     background-color: rgb(199, 223, 247);
 }
 
-#posts{
-    float: right;
+header{
+    background-color: rgb(141, 198, 255);
 }
 
-#work{
-    width: 30%;
-    padding: 2px;
-    border: 2px solid;
-}
-
-#life {
-    border:2px solid;
-    width: 30%;
-    padding: 2px;
-   
-}
 #sideBar {
     float:left;
     margin: 2%;
@@ -25,10 +13,25 @@ body {
     padding: 2px;
 }
 
+#work{
+    width: 30%;
+    padding: 2px;
+    border: 2px solid;
+    float: right;
+}
+
+#life {
+    border:2px solid;
+    width: 30%;
+    padding: 2px;
+   float: right;
+}
+
 #rant {
     border: 2px solid;
     padding: 2px;
     width:30%;
+    float: right;
 }
 
 .banner h2{
