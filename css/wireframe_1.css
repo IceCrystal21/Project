@@ -1,46 +1,68 @@
-#gunpowder-plot{
-    float: right;
-    vertical-align: top;
-    width: 40%;
-    padding: 2px;
-    border: 2px solid;
-  
+body {
+    background-color: rgb(208, 228, 248);
 }
 
-#in-the-news {
-    float:inline-start;
-    border:2px solid;
-    width: 40%;
-    padding: 2px;
-   
+header{
+    background-color: rgb(141, 198, 255);
+    background-image: url("../images/q_mark_bg.jpeg");
 }
+
+#intro{
+    padding: 5% 0;
+    text-align: center;
+}
+
+#recent-posts{
+    background-color: rgb(210, 250, 210);
+    padding: 10px 0;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 30px;
+}
+
 #sideBar {
     float:left;
     margin: 2%;
-    width: 30vh;
+    width: 15vw;
+    height: 80vh;
     padding: 2px;
+
 }
 
-#did-you-know {
-    border: 2px solid;
-    padding: 2px;
-    float:right;
-    width:40%;
+#sideBar ul {
+    border: 2px black solid;
+    border-style: none;
+    padding: 50% 0;
+    background-color: rgb(210, 250, 210);
 }
 
-#on-this-day {
-    border: 2px solid;
-    padding: 2px;
-    float:inline-start;
-    width:40%;
-}
-
-footer article {
-   clear: both;
-    width: 100%;
+#sideBar ul li {
+    padding: 10% 0;
     text-align: center;
-    padding: 15px;
+    font-size: x-large;
+}
+
+#work{
+    width: 20%;
+    padding: 2px;
     border: 2px solid;
+    float: right;
+    margin-right: 50px;
+}
+
+#life {
+    border:2px solid;
+    width: 20%;
+    padding: 2px;
+    float: right;
+    margin: 0 100px;
+}
+
+#rant {
+    border: 2px solid;
+    padding: 2px;
+    width:20%;
+    float: right;
 }
 
 .banner h2{
@@ -50,45 +72,19 @@ footer article {
     margin: 0;
 }
 
-#gunpowder-banner{
+#work-banner{
     background-color: rgb(210, 250, 210);
 }
 
-#news-banner{
-    background-color: rgb(199, 223, 247);
-}
-
-#did-you-know-banner{
+#life-banner{
     background-color: rgb(210, 250, 210);
 }
 
-#on-this-day-banner{
-    background-color: rgb(199, 223, 247);
+#rant-banner{
+    background-color: rgb(210, 250, 210);
 }
+
 
 ul{
     list-style-type: none;
-}
-
-ul a{
-    text-decoration: none;
-}
-
-header ul{
-    display: inline;
-    float: right;
-}
-
-header #search-bar{
-    width: 25%;
-}
-
-header ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-ul li p {
-    float: inline-start;
-    margin: 0;
 }
