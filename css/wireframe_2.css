@@ -9,12 +9,15 @@ header{
 
 #intro{
     padding: 5% 0;
+    text-align: center;
 }
 
 #recent-posts{
     background-color: rgb(210, 250, 210);
     padding: 10px 0;
     text-align: center;
+    margin-left: 20%;
+    margin-right: 30px;
 }
 
 #sideBar {
@@ -23,35 +26,42 @@ header{
     width: 15vw;
     height: 80vh;
     padding: 2px;
+
 }
 
 #sideBar ul {
+    border: 2px black solid;
+    border-style: none;
     padding: 50% 0;
+    background-color: rgb(210, 250, 210);
 }
 
 #sideBar ul li {
     padding: 10% 0;
+    text-align: center;
+    font-size: x-large;
 }
 
 #work{
-    width: 30%;
+    width: 20%;
     padding: 2px;
     border: 2px solid;
     float: right;
+    margin-right: 50px;
 }
 
 #life {
     border:2px solid;
-    width: 30%;
+    width: 20%;
     padding: 2px;
     float: right;
-    margin: 0 20px;
+    margin: 0 100px;
 }
 
 #rant {
     border: 2px solid;
     padding: 2px;
-    width:30%;
+    width:20%;
     float: right;
 }
 
@@ -78,8 +88,3 @@ header{
 ul{
     list-style-type: none;
 }
-
-ul a{
-    text-decoration: none;
-}
-
