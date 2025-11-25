@@ -20,6 +20,19 @@ header{
    margin: 30px;
 }
 
+#recent-updates{
+   background-color: rgb(210, 250, 210);
+    padding: 10px 0;
+    text-align: center;
+   margin: 30px;
+}
+
+#updates{
+    text-align: center;
+    width: 80%;
+    padding-left: 10%;
+}
+
 #posts{
     text-align: center;
 }
@@ -73,27 +86,47 @@ margin-top: 10px;
     text-align: center;
   margin: 0 10px 0 10px;
 }
+#Update1{
+ border: 2px solid;
+    padding: 2px;
+    width:40%;
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top;
+    text-align: center;
+}
+
+#Update2{
+     width: 40%;
+    padding: 2px;
+    border: 2px solid;
+   display: inline-block;
+    margin-right: 50px;
+    margin: 20px;
+    vertical-align: top;
+    text-align: center;
+}
 
 .banner h2{
     display: block;
     border: 1px grey solid;
     padding: 0;
     margin: 0;
+  
 }
 
-#work-banner{
-    background-color: rgb(210, 250, 210);
+.banner {
+     background: rgb(210, 250, 210);
 }
-
-#life-banner{
-    background-color: rgb(210, 250, 210);
-}
-
-#rant-banner{
-    background-color: rgb(210, 250, 210);
-}
-
 
 ul{
     list-style-type: none;
+}
+
+footer {
+     background-color: rgb(210, 250, 210);
+    padding: 10px;
+    text-align: center;
+    margin: 40px;
+    clear: both;
 }
