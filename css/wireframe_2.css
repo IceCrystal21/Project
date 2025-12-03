@@ -138,3 +138,8 @@ ul{
     display: flex;
     flex-direction: column;
 }
+
+#photos img {
+    width: 25%;
+    height: 25%;
+}
