@@ -123,3 +123,18 @@ footer {
 ul{
     list-style-type: none;
 }
+
+#contact #title {
+    text-align: center;
+}
+
+#contact #contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-item {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
