@@ -79,21 +79,21 @@ margin-top: 10px;
     border: 1px grey solid;
     padding: 0;
     margin: 0;
+  
 }
 
-#work-banner{
-    background-color: rgb(210, 250, 210);
+.banner {
+     background: rgb(210, 250, 210);
 }
-
-#life-banner{
-    background-color: rgb(210, 250, 210);
-}
-
-#rant-banner{
-    background-color: rgb(210, 250, 210);
-}
-
 
 ul{
     list-style-type: none;
+}
+
+footer {
+     background-color: rgb(210, 250, 210);
+    padding: 10px;
+    text-align: center;
+    margin: 40px;
+    clear: both;
 }
