@@ -38,11 +38,9 @@ header{
 }
 
 footer {
-     background-color: rgb(210, 250, 210);
+    background-color: rgb(210, 250, 210);
     padding: 10px;
     text-align: center;
-    margin-left: 20%;
-    margin-right: 30px;
     clear: both;
 }
 
@@ -91,7 +89,7 @@ padding: 10px;
 box-sizing: border-box;
 overflow: hidden;
 float: right;
-margin: 0 100px;
+margin: 0 70px;
 margin-bottom: 30px;
 }
 
@@ -168,7 +166,12 @@ ul{
 }
 
 .photo-container a:first-child {
-    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#photos .title {
+    text-align: center;
 }
 
 .input-item input, textarea {

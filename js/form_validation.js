@@ -6,23 +6,23 @@ button.addEventListener("click", function(event) {
     event.preventDefault()
 
     let name = $("#name").value
-
     let email = $("#email").value
-
     let age = $("#age").value
 
-    let error = ""
+    let name_label = $("#name-label")
+    let email_label = $("#email-label")
+    let age_label = $("#age-label")
 
     if (name.length < 2) {
-        error += "Name is too short. \n"
+        name_label.innerHTML =  "Name is too short. \n"
     }
     
     if (!email.includes("@gmail.com")) {
-        error += "Please enter a valid email. \n"
+        email_label.innerHTML = "Please enter a valid email. \n"
     }
     
     if (age < 16) {
-        error += "You are too young to join our team."
+        age_label.innerHTML= "You are too young to join our team."
     }
 
     if (error.length > 0) {
@@ -30,8 +30,8 @@ button.addEventListener("click", function(event) {
     } else {
         alert("Your application has been submitted for review.")
 
-        name.innerHTML = ""
-        email.innerHTML = ""
-        age.innerHTML = ""
+        name_label.innerHTML = "Name:"
+        email_label.innerHTML = "Email:"
+        age_label.innerHTML = "Age: "
     }
 })
