@@ -73,8 +73,8 @@ footer {
 
 #work{
 width: 300px;
-height: 400px;
-border: 1px solid #000;
+height: 450px;
+border: 2px solid #000;
 padding: 10px;
 box-sizing: border-box;
 overflow: hidden;
@@ -85,8 +85,8 @@ margin-bottom: 30px;
 
 #life {
 width: 300px;
-height: 400px;
-border: 1px solid #000;
+height: 450px;
+border: 2px solid #000;
 padding: 10px;
 box-sizing: border-box;
 overflow: hidden;
@@ -97,8 +97,8 @@ margin-bottom: 30px;
 
 #rant {
     width: 300px;
-    height: 400px;
-    border: 1px solid #000;
+    height: 450px;
+    border: 2px solid #000;
     padding: 10px;
     box-sizing: border-box;
     overflow: hidden; 
@@ -110,6 +110,7 @@ margin-bottom: 30px;
  border: 2px solid;
     padding: 2px;
     width:40%;
+    height: 200px;
     display: inline-block;
     margin: 20px;
     vertical-align: top;
@@ -117,6 +118,7 @@ margin-bottom: 30px;
 
 #Update2{
      width: 40%;
+     height: 200px;
     padding: 2px;
     border: 2px solid;
    display: inline-block;
