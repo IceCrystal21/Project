@@ -147,3 +147,8 @@ ul{
 .photo-container a:not(:first-child) {
     display: none;
 }
+
+.input-item input, textarea {
+    border: none;
+    background-color: rgb(210, 250, 210);
+}
