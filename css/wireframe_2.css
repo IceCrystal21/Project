@@ -143,3 +143,7 @@ ul{
     width: 25%;
     height: 25%;
 }
+
+.photo_container {
+    float: inline-end;
+}
