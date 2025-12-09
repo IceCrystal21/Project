@@ -144,6 +144,6 @@ ul{
     height: 25%;
 }
 
-.photo_container {
-    float: inline-end;
+.photo-container a:not(:first-child) {
+    display: none;
 }
