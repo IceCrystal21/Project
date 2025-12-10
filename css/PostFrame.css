@@ -56,7 +56,13 @@ footer {
   background: #ffffff;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
+  .flex-table {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+  }
+
   .flex-table .row {
     flex-direction: column;
     gap: 6px;
@@ -75,9 +81,12 @@ footer {
   }
 
   .flex-table .cell {
+    flex: none;
+    width: 100%;
     border-width: 1px;
     padding: 14px;
     background: #f8fbff;
+    box-sizing: border-box;
   }
 }
 
@@ -94,9 +103,7 @@ footer {
     border: 2px black solid;
     border-style: none;
     padding: 50px;
-
     background-color: rgb(210, 250, 210);
-    position:fixed;
     width: 10%;
 }
 
@@ -105,10 +112,6 @@ footer {
     text-align: left;
     font-size: x-large;
 }
-
-
-
-
 
 .banner h2{
     display: block;
