@@ -154,6 +154,7 @@ ul{
     padding: 10px;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 #photos img {
@@ -181,4 +182,5 @@ ul{
 .input-item input, textarea {
     border: none;
     background-color: rgb(210, 250, 210);
+    padding: 10px 100px;
 }
