@@ -110,7 +110,7 @@ header{
 }
 
 footer {
-    background-color: rgb(155, 251, 155);
+    background-color: rgb(68, 177, 68);
     padding: 10px;
     text-align: center;
     clear: both;
@@ -118,7 +118,6 @@ footer {
 
 #sideBar {
     float:left;
-   
     width: 15vw;
     height: 100vh;
     padding: 2px;
@@ -130,7 +129,7 @@ footer {
     border-style: none;
     padding: 50px;
 
-    background-color: rgb(155, 251, 155);
+    background-color: rgb(68, 177, 68);
     position:fixed;
     width: 10%;
 }
@@ -151,7 +150,7 @@ overflow: hidden;
 float: right;
 margin-right: 90px;
 margin-bottom: 30px;
-background-color: rgb(210, 250, 210);
+background-color: rgb(68, 177, 68);
 }
 
 #life {
@@ -164,7 +163,7 @@ overflow: hidden;
 float: right;
 margin: 0 70px;
 margin-bottom: 30px;
-background-color: rgb(210, 250, 210);
+background-color: rgb(68, 177, 68);
 }
 
 #rant {
@@ -176,7 +175,7 @@ background-color: rgb(210, 250, 210);
     overflow: hidden; 
     float: right;
     margin-bottom: 30px;
-    background-color: rgb(210, 250, 210);
+    background-color: rgb(68, 177, 68);
 }
 
 #Update1{
@@ -187,7 +186,7 @@ background-color: rgb(210, 250, 210);
     display: inline-block;
     margin: 20px;
     vertical-align: top;
-    background-color: rgb(210, 250, 210);
+    background-color: rgb(68, 177, 68);
 }
 
 #Update2{
@@ -199,7 +198,7 @@ background-color: rgb(210, 250, 210);
     margin-right: 50px;
     margin: 20px;
     vertical-align: top;
-    background-color: rgb(210, 250, 210);
+    background-color: rgb(68, 177, 68);
 }
 
 .banner h2{
@@ -213,6 +212,15 @@ background-color: rgb(210, 250, 210);
 .banner {
      background: rgb(155, 251, 155);
 }
+
+#posts article {
+    box-shadow: rgb(31, 81, 31) -30px 30px 30px;
+}
+
+#updates article {
+    box-shadow: rgb(31, 81, 31) -30px 20px 15px;
+}
+
 
 ul{
     list-style-type: none;
@@ -232,6 +240,14 @@ ul{
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+#submit-button{
+    border: none;
+    background-color: rgb(68, 177, 68);
+    margin-top: 20px;
+    padding: 10px 100px;
+    box-shadow: rgb(31, 81, 31) -10px 10px 10px;
 }
 
 #photos img {
@@ -258,6 +274,7 @@ ul{
 
 .input-item input, textarea {
     border: none;
-    background-color: rgb(210, 250, 210);
+    background-color: rgb(68, 177, 68);
     padding: 10px 100px;
+    box-shadow: rgb(31, 81, 31) -10px 10px 10px;
 }
