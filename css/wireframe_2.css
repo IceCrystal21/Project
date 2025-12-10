@@ -6,6 +6,78 @@ header{
     background-color: rgb(141, 198, 255);
     background-image: url("../images/q_mark_bg.jpeg");
 }
+.flex-table {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 1100px;
+  margin: 0 auto;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #111;
+  padding-top: 20px;
+}
+
+.flex-table .row {
+  display: flex;
+  align-items: stretch;
+}
+
+.flex-table .row.header {
+  background: #dff8d9;
+  font-weight: 700;
+  text-align: left;
+}
+
+.flex-table .cell {
+  flex: 1;
+  padding: 12px 14px;
+  border: 2px solid #6b6b6b;
+  box-sizing: border-box;
+  min-width: 0;
+  background: #e9f2ff;
+}
+
+.flex-table .cell.title {
+  flex: 2;
+}
+
+.flex-table .row:not(.header):nth-child(odd) .cell {
+  background: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .flex-table {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .flex-table .row {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .flex-table .row.header {
+    display: none;
+  }
+
+  .flex-table .cell::before {
+    content: attr(data-label);
+    display: block;
+    font-weight: 700;
+    margin-bottom: 6px;
+    color: #1a1a1a;
+  }
+
+  .flex-table .cell {
+    flex: none;
+    width: 100%;
+    border-width: 1px;
+    padding: 14px;
+    background: #f8fbff;
+    box-sizing: border-box;
+  }
+}
 
 #intro{
     padding: 5% 0;
