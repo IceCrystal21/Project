@@ -1,10 +1,10 @@
 body {
-    background-color: rgb(208, 228, 248);
+    background-color: rgb(51, 133, 51);
 }
 
 header{
-    background-color: rgb(141, 198, 255);
-    background-image: url("../images/q_mark_bg.jpeg");
+    background-color: rgb(155, 251, 155);
+    background-image: url("../images/Polygon Banner.jpg");
 }
 
 #intro{
@@ -13,13 +13,13 @@ header{
 }
 
 #recent-posts{
-    background-color: rgb(210, 250, 210);
+    background-color: rgb(155, 251, 155);
     padding: 10px 0;
     text-align: center;
 }
 
 #recent-updates{
-    background-color: rgb(210, 250, 210);
+    background-color: rgb(155, 251, 155);
     padding: 10px;
     text-align: center;
     margin-left: 20%;
@@ -34,7 +34,7 @@ header{
 }
 
 footer {
-    background-color: rgb(210, 250, 210);
+    background-color: rgb(68, 177, 68);
     text-align: center;
     clear: both;
 }
@@ -44,7 +44,7 @@ footer {
     height: 10vh;
     margin: 0;
     padding: 10px 0;
-    background-color: rgb(210, 250, 210);
+    background-color: rgb(68, 177, 68);
 }
 
 #sideBar ul {

@@ -130,8 +130,7 @@ footer {
     padding: 50px;
 
     background-color: rgb(68, 177, 68);
-    position:fixed;
-    width: 10%;
+    width: 50%;
 }
 
 #sideBar ul li {
