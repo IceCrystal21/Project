@@ -1,10 +1,10 @@
 body {
-    background-color: rgb(208, 228, 248);
+    background-color: rgb(51, 133, 51);
 }
 
 header{
-    background-color: rgb(141, 198, 255);
-    background-image: url("../images/q_mark_bg.jpeg");
+    background-color: rgb(155, 251, 155);
+    background-image: url("../images/abstract-low-poly-background-element-elegant-dynamic-dark-green-color-for-digital-banner-business-web-brochure-flyer-advertising-print-advertising-surface-branding-landing-page-header-vector.jpg");
 }
 .flex-table {
   display: flex;
@@ -85,7 +85,7 @@ header{
 }
 
 #recent-posts{
-    background-color: rgb(210, 250, 210);
+    background-color: rgb(155, 251, 155);
     padding: 10px 0;
     text-align: center;
     margin-left: 20%;
@@ -93,7 +93,7 @@ header{
 }
 
 #recent-updates{
-    background-color: rgb(210, 250, 210);
+    background-color: rgb(155, 251, 155);
     padding: 10px;
     text-align: center;
     clear: both;
@@ -110,7 +110,7 @@ header{
 }
 
 footer {
-    background-color: rgb(210, 250, 210);
+    background-color: rgb(155, 251, 155);
     padding: 10px;
     text-align: center;
     clear: both;
@@ -130,7 +130,7 @@ footer {
     border-style: none;
     padding: 50px;
 
-    background-color: rgb(210, 250, 210);
+    background-color: rgb(155, 251, 155);
     position:fixed;
     width: 10%;
 }
@@ -149,8 +149,9 @@ padding: 10px;
 box-sizing: border-box;
 overflow: hidden;
 float: right;
-margin-right: 50px;
+margin-right: 90px;
 margin-bottom: 30px;
+background-color: rgb(210, 250, 210);
 }
 
 #life {
@@ -163,6 +164,7 @@ overflow: hidden;
 float: right;
 margin: 0 70px;
 margin-bottom: 30px;
+background-color: rgb(210, 250, 210);
 }
 
 #rant {
@@ -174,6 +176,7 @@ margin-bottom: 30px;
     overflow: hidden; 
     float: right;
     margin-bottom: 30px;
+    background-color: rgb(210, 250, 210);
 }
 
 #Update1{
@@ -184,6 +187,7 @@ margin-bottom: 30px;
     display: inline-block;
     margin: 20px;
     vertical-align: top;
+    background-color: rgb(210, 250, 210);
 }
 
 #Update2{
@@ -195,6 +199,7 @@ margin-bottom: 30px;
     margin-right: 50px;
     margin: 20px;
     vertical-align: top;
+    background-color: rgb(210, 250, 210);
 }
 
 .banner h2{
@@ -206,7 +211,7 @@ margin-bottom: 30px;
 }
 
 .banner {
-     background: rgb(210, 250, 210);
+     background: rgb(155, 251, 155);
 }
 
 ul{
