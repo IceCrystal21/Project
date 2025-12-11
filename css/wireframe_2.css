@@ -1,50 +1,4 @@
-body {
-    background-color: rgb(51, 133, 51);
-}
 
-header{
-    background-color: rgb(155, 251, 155);
-    background-image: url("../images/Polygon Banner.jpg");
-}
-.flex-table {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  max-width: 1100px;
-  margin: 0 auto;
-  font-family: Georgia, "Times New Roman", serif;
-  color: #111;
-  padding-top: 20px;
-  padding-left: 15vw;
-}
-
-.flex-table .row {
-  display: flex;
-  align-items: stretch;
-}
-
-.flex-table .row.header {
-  background: #dff8d9;
-  font-weight: 700;
-  text-align: left;
-}
-
-.flex-table .cell {
-  flex: 1;
-  padding: 12px 14px;
-  border: 2px solid #6b6b6b;
-  box-sizing: border-box;
-  min-width: 0;
-  background: #e9f2ff;
-}
-
-.flex-table .cell.title {
-  flex: 2;
-}
-
-.flex-table .row:not(.header):nth-child(odd) .cell {
-  background: #ffffff;
-}
 
 @media (max-width: 768px) {
   .flex-table {
@@ -229,6 +183,55 @@ ul{
     border: none;
     background-color: rgb(210, 250, 210);
 }
+}
+
+@media (min-width: 769px) {
+body {
+    background-color: rgb(51, 133, 51);
+}
+
+header{
+    background-color: rgb(155, 251, 155);
+    background-image: url("../images/Polygon Banner.jpg");
+}
+.flex-table {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 1100px;
+  margin: 0 auto;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #111;
+  padding-top: 20px;
+  padding-left: 15vw;
+}
+
+.flex-table .row {
+  display: flex;
+  align-items: stretch;
+}
+
+.flex-table .row.header {
+  background: #dff8d9;
+  font-weight: 700;
+  text-align: left;
+}
+
+.flex-table .cell {
+  flex: 1;
+  padding: 12px 14px;
+  border: 2px solid #6b6b6b;
+  box-sizing: border-box;
+  min-width: 0;
+  background: #e9f2ff;
+}
+
+.flex-table .cell.title {
+  flex: 2;
+}
+
+.flex-table .row:not(.header):nth-child(odd) .cell {
+  background: #ffffff;
 }
 
 #bigDiv {
@@ -436,4 +439,5 @@ ul{
 
 .input-item label {
     font-size: large;
+}
 }
