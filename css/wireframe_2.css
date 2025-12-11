@@ -77,6 +77,14 @@ header{
     background: #f8fbff;
     box-sizing: border-box;
   }
+
+  body {
+    background-color: rgb(51, 133, 51);
+}
+
+header{
+    background-color: rgb(155, 251, 155);
+    background-image: url("../images/Polygon Banner.jpg");
 }
 
 #intro{
@@ -88,7 +96,153 @@ header{
     background-color: rgb(155, 251, 155);
     padding: 10px 0;
     text-align: center;
+}
+
+#recent-updates{
+    background-color: rgb(155, 251, 155);
+    padding: 10px;
+    text-align: center;
+     
+    margin-right: 30px;
+    clear: both;
+}
+
+#updates{
+    text-align: center;
+    width: 80%;
+    
+}
+
+footer {
+    background-color: rgb(68, 177, 68);
+    text-align: center;
+    clear: both;
+}
+
+#sideBar {
+    width: 100%;
+    height: 10vh;
+    margin: 0;
+    padding: 10px 0;
+    background-color: rgb(68, 177, 68);
+}
+
+#sideBar ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background: none;
+    border: none;
+}
+
+#sideBar ul li {
+    padding: 0 4vw;
+    font-size: x-large;
+}
+
+#sideBar ul li a {
+    text-decoration: none;
+}
+
+#work{
+    width: 70%;
+    border: 2px solid;
+    display: inline-block;
+    margin: 0;
+}
+
+#life {
+    border:2px solid;
+    width: 70%;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+#rant {
+    border: 2px solid;
+    width:70%;
+    display: inline-block;
+    margin: 0;
+}
+
+#Update1{
+    border: 2px solid;
+    width:80%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#Update2{
+     width: 80%;
+    padding: 2px;
+    border: 2px solid;
+   display: inline-block;
+    margin-right: 50px;
+    margin: 20px;
+    vertical-align: top;
+}
+
+.banner h2{
+    display: block;
+    border: 1px grey solid;
+    padding: 0;
+    margin: 0;
+  
+}
+
+.banner {
+     background: rgb(210, 250, 210);
+}
+
+ul{
+    list-style-type: none;
+}
+
+#contact #title {
+    text-align: center;
+}
+
+#contact #contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-item {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#photos img {
+    width: 25%;
+    height: 25%;
+}
+
+.photo-container a:not(:first-child) {
+    display: none;
+}
+
+.input-item input, textarea {
+    border: none;
+    background-color: rgb(210, 250, 210);
+}
+}
+
+#bigDiv {
     margin-left: 20%;
+}
+#intro{
+    padding: 5% 0;
+    text-align: center;
+}
+
+#recent-posts{
+    background-color: rgb(155, 251, 155);
+    padding: 10px 0;
+    text-align: center;
+     
     margin-right: 30px;
 }
 
@@ -98,15 +252,9 @@ header{
     text-align: center;
     clear: both;
     margin-top: 30px;
-    margin-left: 20%;
+     
     margin-right: 30px;
     clear: both;
-}
-
-#updates{
-    text-align: center;
-    width: 80%;
-    padding-left: 20%;
 }
 
 footer {
@@ -118,8 +266,9 @@ footer {
 
 #sideBar {
     float:left;
+    position: fixed;
     width: 15vw;
-    height: 100vh;
+    height: 80vh;
     padding: 2px;
 
 }
@@ -212,12 +361,16 @@ background-color: rgb(68, 177, 68);
      background: rgb(155, 251, 155);
 }
 
+
+
+
 #posts article {
     box-shadow: rgb(31, 81, 31) -30px 30px 30px;
 }
 
 #updates article {
     box-shadow: rgb(31, 81, 31) -30px 20px 15px;
+    margin: left 20%;
 }
 
 
@@ -277,3 +430,4 @@ ul{
     padding: 10px 100px;
     box-shadow: rgb(31, 81, 31) -10px 10px 10px;
 }
+
