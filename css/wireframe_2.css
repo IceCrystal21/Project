@@ -15,6 +15,7 @@ header{
   font-family: Georgia, "Times New Roman", serif;
   color: #111;
   padding-top: 20px;
+  padding-left: 15vw;
 }
 
 .flex-table .row {
@@ -138,7 +139,7 @@ footer {
 }
 
 #sideBar ul li {
-    padding: 0 4vw;
+    padding: 0 10vw;
     font-size: x-large;
 }
 
@@ -259,7 +260,7 @@ ul{
 
 footer {
     background-color: rgb(68, 177, 68);
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     clear: both;
 }
@@ -277,7 +278,6 @@ footer {
     border: 2px black solid;
     border-style: none;
     padding: 50px;
-
     background-color: rgb(68, 177, 68);
     width: 50%;
 }
@@ -327,11 +327,11 @@ background-color: rgb(68, 177, 68);
 }
 
 #Update1{
- border: 2px solid;
+    border: 2px solid;
     padding: 2px;
     width:40%;
     height: 200px;
-    display: inline-block;
+    float: inline-end;
     margin: 20px;
     vertical-align: top;
     background-color: rgb(68, 177, 68);
@@ -342,7 +342,7 @@ background-color: rgb(68, 177, 68);
      height: 200px;
     padding: 2px;
     border: 2px solid;
-   display: inline-block;
+    float: inline-start;
     margin-right: 50px;
     margin: 20px;
     vertical-align: top;
@@ -392,12 +392,13 @@ ul{
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
 }
 
 #submit-button{
     border: none;
     background-color: rgb(68, 177, 68);
-    margin-top: 20px;
+    margin: 20px 0;
     padding: 10px 100px;
     box-shadow: rgb(31, 81, 31) -10px 10px 10px;
 }
@@ -427,7 +428,12 @@ ul{
 .input-item input, textarea {
     border: none;
     background-color: rgb(68, 177, 68);
-    padding: 10px 100px;
+    width: 200%;
+    padding: 12px;
+    margin: 10px 0;
     box-shadow: rgb(31, 81, 31) -10px 10px 10px;
 }
 
+.input-item label {
+    font-size: large;
+}
